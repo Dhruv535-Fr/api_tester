@@ -19,7 +19,7 @@ export default function Footer() {
           {/* Links */}
           <div className="flex items-center space-x-6">
             <a
-              href="https://github.com"
+              href="https://github.com/Dhruv535-Fr/api_tester"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-slate-600 hover:text-slate-900 transition-colors"

@@ -76,3 +76,12 @@ body {
   animation: pulse-glow 2s ease-in-out infinite;
 }
 
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
